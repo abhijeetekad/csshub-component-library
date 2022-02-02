@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Robot", sans-serif;
+}
+:root {
+}
+.avatar {
+  display: flex;
+  flex-direction: column;
+}
+.avatar-shape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 2rem 0rem 2rem 0rem;
+  /* border: 1px solid black; */
+  box-shadow: 3px 3px 5px 6px #ccc;
+  width: 100%;
+  padding: 2rem;
+}
+.avatar-shape img {
+  margin-right: 1rem;
+}
+/*******************************/
+.circle-xs {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgb(81, 177, 17);
+}
+.circle-sm {
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgb(177, 41, 17);
+  border: 2px solid rgb(67, 165, 2);
+}
+.circle-md {
+  border-radius: 50%;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: rgb(177, 17, 124);
+}
+.circle-lg {
+  border-radius: 50%;
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: rgb(102, 56, 48);
+}
+.circle-xl {
+  border-radius: 50%;
+  width: 6.5rem;
+  height: 6.5rem;
+  background-color: rgb(235, 231, 18);
+  border: 2px solid rgb(102, 56, 48);
+}
+/*******************************/
+
+.square-xs {
+  border-radius: 20%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgb(81, 177, 17);
+}
+.square-sm {
+  border-radius: 20%;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgb(177, 41, 17);
+}
+.square-md {
+  border-radius: 20%;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: rgb(177, 17, 124);
+}
+.square-lg {
+  border-radius: 20%;
+  width: 5.5rem;
+  height: 5.5rem;
+  background-color: rgb(102, 56, 48);
+}
+.square-xl {
+  border-radius: 20%;
+  width: 6.5rem;
+  height: 6.5rem;
+  background-color: rgb(235, 231, 18);
+}
+/**************************/
+.triangle-xs {
+  /* border-radius: 20%; */
+  width: 2.5rem;
+  height: 2.5rem;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.triangle-sm {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.triangle-md {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.triangle-lg {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.triangle-xl {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 6.5rem;
+  height: 6.5rem;
+}
+/***************************************/
+
+@media screen and (max-width: 780px) {
+}

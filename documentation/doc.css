@@ -6,11 +6,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(249, 250, 243);
 }
 :root {
   --primary-color: rgb(185, 185, 185);
-  --secondary-color: #2f323a;
-  --supplementary-color: blue;
+  --secondary-color: #272424;
+  --supplementary-color: rgb(149, 149, 165);
 }
 header {
   z-index: 1;

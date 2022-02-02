@@ -3,6 +3,15 @@
   display: flex;
   flex-direction: column;
 }
+.cards h1 {
+  font-size: 48px;
+  margin-top: 2rem;
+}
+.cards h4 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
 .cards-shape {
   display: flex;
   flex-wrap: wrap;
@@ -330,6 +339,7 @@
   font-family: "Ubuntu", sans-serif;
   margin-left: 5rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .portraitcard2:hover {
   border: 4px solid #f1c98b;

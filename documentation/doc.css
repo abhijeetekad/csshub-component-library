@@ -10,7 +10,7 @@
 :root {
   --primary-color: rgb(185, 185, 185);
   --secondary-color: #2f323a;
-  --supplementary-color: blue;
+  --supplementary-color: rgb(143, 196, 93);
 }
 header {
   z-index: 1;

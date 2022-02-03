@@ -1,0 +1,111 @@
+:root {
+}
+.badge-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.badge-section h1 {
+  font-size: 48px;
+  margin-top: 2rem;
+}
+.badge-section h4 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.badges-avatar {
+  display: flex;
+  align-items: center;
+}
+.badges-avatar img {
+  margin-right: 4rem;
+}
+.lg-badge-container {
+  position: relative;
+}
+.lg-badge-container .badgr-lg {
+  width: 1rem;
+  height: 1rem;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 4rem;
+  right: 0px;
+  bottom: 0;
+  left: 4rem;
+}
+.xl-badge-container {
+  position: relative;
+}
+.xl-badge-container .badgr-xl {
+  width: 2rem;
+  height: 2rem;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 4.5rem;
+  right: 0px;
+  bottom: 0;
+  left: 4rem;
+}
+.badgr-xl2 {
+  width: 2rem;
+  height: 2rem;
+  background-color: green;
+  border-radius: 50%;
+}
+.xl-badge-container .badgr-xl2 {
+  position: absolute;
+  bottom: 0px;
+  top: 0;
+  left: 4.5rem;
+}
+/**********************/
+.text-badge {
+  display: flex;
+  flex-direction: column;
+}
+.right-txt-bdg-container {
+  width: fit-content;
+  position: relative;
+  margin-top: 2rem;
+}
+.bdg {
+  width: 2rem;
+  height: 2rem;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.right-bdg {
+  right: 0;
+  top: -1rem;
+}
+.left-txt-bdg-container {
+  width: fit-content;
+  position: relative;
+  margin-top: 2rem;
+}
+.left-bdg {
+  left: 0;
+  top: 0rem;
+}
+/************************/
+.icon-badge {
+  display: flex;
+  flex-direction: column;
+}
+.bdg-icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  color: white;
+}

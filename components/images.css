@@ -1,0 +1,46 @@
+.img-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.img-section h2 {
+  font-size: 48px;
+  margin: 2rem 0rem 2rem 0rem;
+}
+.img-section h4 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.img-section h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  margin: 2rem 0rem 2rem 0rem;
+}
+.img-section img {
+  width: 100%;
+  object-fit: cover;
+}
+.img-section-round {
+  height: 25rem;
+  margin-bottom: 2rem;
+  width: 20rem;
+  min-width: 10rem;
+  height: 20rem;
+  min-height: 10rem;
+}
+.image-round {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+@media screen and (max-width: 780px) {
+  .img-section-round {
+    width: 10rem;
+    height: 10rem;
+  }
+}

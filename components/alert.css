@@ -1,8 +1,8 @@
 :root {
-  --success-alert-background: #e8fcf1;
-  --info-alert-background: #e6f7ff;
-  --warning-alert-background: #fefbe6;
-  --error-alert-background: #fef2f1;
+  --success-alert-background: #77ebab;
+  --info-alert-background: #94cee9;
+  --warning-alert-background: #e7dc91;
+  --error-alert-background: #e49790;
   --success-alert-color: #027e38;
   --info-alert-color: #446fcb;
   --warning-alert-color: hsl(40deg 84% 40%);

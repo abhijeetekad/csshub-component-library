@@ -15,7 +15,7 @@
 .cards-shape {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 0rem 2rem 0rem;
+  margin: 2rem 0rem;
   /* box-shadow: 3px 3px 5px 6px #ccc; */
   width: 100%;
   padding: 2rem;
@@ -48,13 +48,14 @@
   justify-content: space-evenly;
   margin-top: 10px;
 }
+.btn-border {
+  border-radius: 2px;
+  font-weight: 600;
+}
 .vertical-card-lower-section button {
   margin-right: 1rem;
   background-color: #ff9900;
   border: none;
-  border-radius: 2px;
-  font-weight: 500;
-  padding: 3px;
 }
 .vertical-card-lower-section button:hover {
   background-color: #ffd729;
@@ -71,7 +72,6 @@
   background-color: white;
   margin: 8rem 2rem 2rem 0rem;
   box-shadow: 3px 3px 5px 6px #ccc;
-  /* padding: 3px 5px 3px 6px; */
   position: relative;
   justify-content: center;
   align-items: center;
@@ -102,8 +102,6 @@
   margin-right: 1.5rem;
   background-color: #ff9900;
   border: none;
-  border-radius: 2px;
-  font-weight: 500;
   padding: 10px;
   border-radius: 3px;
 }
@@ -175,7 +173,6 @@
 .badge-card-desc {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
 }
 .badge-card-desc .product-name {
   font-size: 24px;
@@ -307,7 +304,7 @@
 .price span {
   color: red;
 }
-.portrait-card-btn .btn1 {
+.btn-border-portrait {
   font-size: 18px;
   font-weight: 600;
   padding: 12px;
@@ -316,17 +313,14 @@
   border: none;
   border-radius: 2px;
 }
+.portrait-card-btn .btn1 {
+  background-color: #ff9900;
+}
 .portrait-card-btn .btn1:hover {
   background-color: #f1c98b;
 }
 .portrait-card-btn .btn2 {
-  padding: 12px;
-  margin-left: 10px;
-  font-size: 18px;
-  font-weight: 600;
   background-color: #f1c98b;
-  border: none;
-  border-radius: 2px;
 }
 .portrait-card-btn .btn2:hover {
   background-color: #ff9900;

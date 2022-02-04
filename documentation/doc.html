@@ -18,6 +18,9 @@
         <label for="check" class="header-left">
           <i class="fas fa-grip-lines fa-3x" id="sidebar-btn"></i>
         </label>
+        <label  class="lib-name header-left">
+          Component Liabrary
+        </label>
         <div class="header-right">
           <span><a href="https://twitter.com/ekad_abhijeet"><i class="fab fa-twitter fa-3x"></i></a></span>
           <span
@@ -33,9 +36,9 @@
       <a href="#installation"><span>Installation</span></a>
       <a href="#avatar"><span>Avatar</span></a>
       <a href="#cards"><span>cards</span></a>
-      <a href="#badge"><span>Badge</span></a>
-      <a href="#alert"><span>Alert</span></a>
       <a href="#buttons"><span>Buttons</span></a>
+      <a href="#alert"><span>Alert</span></a>
+      <a href="#badge"><span>Badge</span></a>
       <a href="#images"><span>Images</span></a>
       <a href="#input"><span>Input</span></a>
     </div>
@@ -62,10 +65,7 @@
             <img class="circle-lg" src="/images/man cartoon 2.svg" />
             <img class="circle-xl" src="/images/man cartoon 2.svg" />
           </div>
-          <!-- <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p> -->
+          
           <br />
           <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=17px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-circle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522circle-xs%2522%2520src%253D%2522%252Fimages%252Fman%2520cartoon%25202.svg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522circle-sm%2522%2520src%253D%2522%252Fimages%252Fman%2520cartoon%25202.svg%2522%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522circle-md%2522%2520src%253D%2522%252Fimages%252Fman%2520cartoon%25202.svg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522circle-lg%2522%2520src%253D%2522%252Fimages%252Fman%2520cartoon%25202.svg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522circle-xl%2522%2520src%253D%2522%252Fimages%252Fman%2520cartoon%25202.svg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
@@ -405,7 +405,7 @@
   style="width: 497px; height: 189px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
-  <div class="img-section">
+           <div class="img-section">
             <h2 id="images">Images</h2>
             <h4>Images can be responsive to fit the parent's width, and also can be customised to be round shaped.</h4><hr>
             <h3>Responsive Image</h3><hr>
@@ -422,6 +422,79 @@
   style="width: 741px; height: 189px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+          <div class="input-section">
+            <h2 id="input">Input</h2>
+            <h4>Various forms and Inputs. Inputs are necessary for user interaction with the website. Inputs are used to take information from the user, and then save the data.</h4><hr>
+            <h3>Input - TextArea</h3>
+            <p>Use class input to form a basic input</p>
+            <div class="input">
+              <div class="input-text-area">
+                <input placeholder="Input - TextArea"/>
+              </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fd4fc633c09d0015b44db1" style="width: 100%; height: 151px;" frameborder="0"></iframe>
+            <h3>Input's with different labels</h3>
+            <p>Use class input to form a basic input</p>
+            <div class="input">
+              <div class="input-text-area">
+                <form>
+                  <div>
+                    <p>Username</p>
+                    <input placeholder="Username" type="text">
+                  </div>
+                  <div>
+                    <p>Email*</p>
+                    <input placeholder="Email" type="email" required>
+                  </div>
+                  <div>
+                    <p>Country</p>
+                    <input placeholder="Country" type="text">
+                  </div>
+                  
+                </form>
+              </div>
+            </div><br>
+            
+            <iframe src="https://www.thiscodeworks.com/embed/61fd505733c09d0015b44db4" style="width: 100%; height: 190px;" frameborder="0"></iframe>
+
+            <h3>Errored / successful inputs</h3>
+            <div class="input">
+              <div class="input-text-area">
+                <form>
+                  <div>
+                    <p class="password">Password*</p>
+                    <input class="password-input" placeholder="Username" type="text">
+                    <p class="password">Minimum 8 characters required!</p>
+                  </div>
+                  <div>
+                    <p class="confirm-password">Confirm Password*</p>
+                    <input class="confirm-password" placeholder="Email" type="email" required>
+                    <p class="error-msg">Password Matched</p>
+                  </div>
+                  
+                </form>
+              </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fd50ba33c09d0015b44db5" style="width: 100%; height: 190px;" frameborder="0"></iframe>
+            <h3>Inputs with options</h3>
+            <div class="input">
+              <div class="input-option">
+                <form>
+                  <div>
+                    <label for="gender">Select gender</label>
+                    <input placeholder="Username" type="text" id="gender" list="genders">
+                    <datalist id="genders">
+                        <option value="Male"></option>
+                        <option value="Female"></option>
+                        <option value="Dont' want disclose"></option>
+                    </datalist>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61fd50f333c09d0015b44db6" style="width: 100%; height: 190px;" frameborder="0"></iframe><br><hr/>
+            
+          </div>
         </section>
         
         

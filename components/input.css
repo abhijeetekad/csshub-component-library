@@ -1,0 +1,59 @@
+.input-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.input-section h2 {
+  font-size: 48px;
+  margin: 2rem 0rem 2rem 0rem;
+}
+.input-section h4 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.input-section h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  margin: 2rem 0rem 2rem 0rem;
+}
+.input {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.input-text-area input {
+  border: 2px solid var(--secondary-color);
+  height: 2rem;
+  width: 15rem;
+}
+.input-text-area input::placeholder {
+  padding: 1rem;
+}
+.input-text-area label {
+  margin: 1rem 0rem;
+}
+.input-text-area .password {
+  color: red;
+}
+.input-text-area .error-msg {
+  color: green;
+}
+.input-text-area .confirm-password {
+  color: green;
+}
+/***************/
+.input-option input {
+  border: 2px solid var(--secondary-color);
+  height: 2rem;
+  width: 15rem;
+}
+
+@media screen and (max-width: 780px) {
+}

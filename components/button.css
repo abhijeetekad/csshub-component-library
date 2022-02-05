@@ -10,18 +10,24 @@
   margin-bottom: 2rem;
 }
 .btns-section h1 {
-  font-size: 48px;
+  font-size: 2rem;
   margin-top: 2rem;
 }
 .btns-section h4 {
-  font-size: 24px;
+  font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: 500;
+}
+.simple-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .normal-btn {
   border: none;
   padding: 1rem;
   margin-right: 2rem;
+  margin-top: 1rem;
   cursor: pointer;
   font-size: 18px;
   font-weight: 600;

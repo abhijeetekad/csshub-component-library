@@ -28,6 +28,10 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.header-items .lib-name {
+  font-size: 32px;
+  font-weight: 600;
+}
 .header-items .header-left {
   margin-left: 4rem;
   cursor: pointer;
@@ -118,5 +122,12 @@ header {
   }
   .library-content .library-components {
     margin-left: 0;
+  }
+  .header-items .lib-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .header-items .header-right {
+    display: flex;
   }
 }

@@ -69,8 +69,6 @@
   top: 0;
   left: 0;
   bottom: 0;
-  /* left: -12rem; */
-  /* transform: translate(-12rem); */
   transition: 0.3s;
   transition-property: transform;
 }

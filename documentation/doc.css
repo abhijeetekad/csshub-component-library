@@ -90,6 +90,9 @@ header {
 .sidebar a:hover {
   background: var(--supplementary-color);
 }
+#check {
+  display: none;
+}
 #check:checked ~ .sidebar {
   left: -250px;
 }
@@ -119,6 +122,9 @@ header {
   }
   #check:checked ~ .sidebar {
     left: 210px;
+  }
+  #check:checked ~ .library-content {
+    margin-left: 0px;
   }
   .library-content .library-components {
     margin-left: 0;

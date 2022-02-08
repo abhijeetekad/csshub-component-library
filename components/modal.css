@@ -1,0 +1,49 @@
+:root {
+  --white-background: rgb(255, 255, 255);
+  --modal-box-shadow: rgb(209, 209, 209);
+}
+.modal h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.demo-modal {
+  width: fit-content;
+  height: 10rem;
+  background-color: var(--white-background);
+  border-radius: 0.5rem;
+  box-shadow: var(--modal-box-shadow) 0px 5px 15px;
+}
+.demo-modal h4 {
+  font-size: 1rem;
+  padding: 2rem;
+}
+.demo-modal h4 i {
+  margin-right: 1rem;
+}
+.demo-modal p {
+  padding: 0rem 2rem;
+}
+.modal-btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin: 1rem;
+}
+.btn {
+  border: none;
+  padding: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cancel-btn {
+  background-color: var(--primary-btn-background);
+}
+.delete-btn {
+  background-color: var(--signout-btn-background);
+}
+@media screen and (max-width: 780px) {
+  .demo-modal h4 {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}

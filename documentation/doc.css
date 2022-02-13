@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
   scroll-behavior: smooth;
+  scroll-margin-block: 5rem;
 }
 body {
   background-color: rgb(249, 250, 243);
@@ -50,6 +51,7 @@ header {
   width: 250px;
   margin-top: 5rem;
   padding-top: 30px;
+  padding-bottom: 7rem;
   background-color: var(--secondary-color);
   overflow-y: auto;
   height: 100%;

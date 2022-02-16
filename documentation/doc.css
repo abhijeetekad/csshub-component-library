@@ -82,7 +82,7 @@ header {
   width: 100%;
   line-height: 4rem;
   text-decoration: none;
-  padding-left: 5rem;
+  padding-left: 4rem;
   box-sizing: border-box;
   transition: 0.5s;
   transition-property: background;
@@ -92,6 +92,7 @@ header {
 .sidebar a:hover {
   background: var(--supplementary-color);
 }
+
 #check {
   display: none;
 }
@@ -113,7 +114,20 @@ header {
   display: flex;
   flex-direction: column;
 }
-
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(153, 153, 153);
+  /* border-radius: 2rem; */
+}
+* {
+  scrollbar-width: bold;
+  scrollbar-color: rgb(153, 153, 153) black;
+}
 @media screen and (max-width: 780px) {
   .sidebar {
     transform: translate(-250px);

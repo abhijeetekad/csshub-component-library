@@ -1,8 +1,12 @@
-// const sideBarBtn = document.getElementById("sidebar-btn");
-// const sideBar = document.getElementById("sidebar");
-// // console.log(sideBarBtn);
-// // console.log(sideBar);
-// sideBarBtn.addEventListener("click", () => {
-//   console.log("click");
-//   sidebar.style.left:-210px;
-// });
+/* Live modal */
+let showModal = document.querySelector(".show-modal");
+let liveModal = document.querySelector(".live-modal");
+let closeModal = document.querySelector(".close-modal");
+
+showModal.addEventListener("click", () => {
+  liveModal.classList.add("live-modal-active");
+});
+
+closeModal.addEventListener("click", () => {
+  liveModal.classList.remove("live-modal-active");
+});

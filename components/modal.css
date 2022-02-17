@@ -69,13 +69,14 @@
   align-items: center;
   gap: 0.5rem;
   width: 25%;
-  height: 30%;
-  padding: 1rem;
+  height: 40%;
+  padding: 2rem;
 }
 .modal-card input {
   border: 1px solid var(--modal-box-shadow);
   height: 3rem;
   padding-right: 5rem;
+  width: 100%;
 }
 @media screen and (max-width: 780px) {
   .demo-modal h4 {

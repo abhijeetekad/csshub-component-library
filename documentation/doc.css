@@ -92,7 +92,12 @@ header {
 .sidebar a:hover {
   background: var(--supplementary-color);
 }
-
+.sidebar ul li {
+  padding-left: 0.8rem;
+}
+.sidebar ul li a {
+  font-size: 16px;
+}
 #check {
   display: none;
 }

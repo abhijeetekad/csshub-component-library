@@ -15,7 +15,7 @@ CSS CLUB is fully customizable CSS Component library to boost development of web
 - Example's html code is written, you can directly copy and paste in your html file.
 - You can also create combinations of components by adding appropriate class to your html elements.
 
-## Components Defined in BoostMat -
+## Components-
 
 - [Alert](https://css-club.netlify.app/documentation/doc.html#alert)
 - [Avatar](https://css-club.netlify.app/documentation/doc.html#avatar)

@@ -1,0 +1,16 @@
+.price-range {
+  display: flex;
+  padding: 2rem 0rem;
+}
+.range {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+.radio {
+  cursor: pointer;
+}

@@ -136,7 +136,7 @@ header {
 .gist {
   width: 100%;
   height: 190px;
-  overflow-y: scroll;
+  overflow: scroll;
   background-color: var(--primary-color);
   margin-bottom: 1rem;
 }

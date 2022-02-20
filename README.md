@@ -10,12 +10,13 @@ CSS CLUB is fully customizable CSS Component library to boost development of web
 
 - HTML
 - Vanilla CSS
+- -Java Script
 
 ## [Documentation](https://css-club.netlify.app/documentation/doc.html)
 
 - Installation guide is provided in documentation.
-- Example's html code is written, you can directly copy and paste in your html file.
-- You can also create combinations of components by adding appropriate class to your html elements.
+- You can just copy and paste code which is given below component and thats it you are good to go
+- You can also create your own style in that component by adding your style class
 - ```bash
   <link rel="stylesheet" href="https://css-club.netlify.app/index.css" />
 ```

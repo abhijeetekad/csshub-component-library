@@ -1,0 +1,17 @@
+.ratings {
+  margin: 2rem 0;
+}
+.checked {
+  color: var(--supplementary-color);
+}
+.static-rating {
+  width: fit-content;
+  margin: 2rem 0;
+  padding: 0.5rem;
+  background-color: var(--secondary-color);
+  color: White;
+  border-radius: 1rem;
+}
+.static-rating span {
+  margin-left: 0.5rem;
+}

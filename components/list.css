@@ -1,0 +1,39 @@
+.simple-list {
+  margin: 2rem;
+  box-shadow: var(--modal-box-shadow) 0px 5px 15px;
+  width: fit-content;
+  padding: 1rem;
+}
+.simple-list h2 {
+  border-bottom: 2px solid black;
+}
+.simple-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.simple-list li {
+  list-style: none;
+  margin-right: 1rem;
+  gap: 1rem;
+  font-weight: bold;
+}
+.notification-box {
+  display: flex;
+  align-items: center;
+}
+.messanger-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.messanger-name h3 {
+  font-size: 1rem;
+}
+.message-count {
+  background-color: green;
+  border-radius: 5rem;
+  padding: 0.4rem;
+  color: white;
+  font-weight: 300;
+}

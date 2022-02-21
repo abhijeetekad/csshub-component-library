@@ -49,6 +49,10 @@
 .btn-login {
   background-color: var(--login-btn-background);
 }
+.btn-login:hover {
+  color: white;
+  opacity: 0.6;
+}
 /*************/
 .outline-btn-primary {
   border: 2px solid var(--primary-btn-background);

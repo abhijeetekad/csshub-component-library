@@ -1,7 +1,7 @@
 .snackbar {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 0rem;
+  margin: 2rem 0;
 }
 .base-line-snackbar {
   position: fixed;
@@ -10,7 +10,7 @@
   flex-direction: column;
   visibility: hidden;
 }
-.snackbar2 {
+.snackbar-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,6 +20,9 @@
   padding: 1.5rem;
   border-radius: 5px;
   box-shadow: 1.5px 1.5px var(--primary-color);
+}
+.snackbar-info span {
+  margin-right: 1rem;
 }
 
 .leading-snackbar {

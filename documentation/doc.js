@@ -18,3 +18,35 @@ value.textContent = slider.value;
 slider.oninput = function () {
   value.textContent = this.value;
 };
+/***snackbar** */
+
+let baseLineBtn = document.querySelector("#base-line-btn");
+let snackbarContainer2 = document.querySelector(".base-line-snackbar");
+let stackedLineBtn = document.querySelector("#stacked-line-btn");
+let leadingBtn = document.querySelector("#leading-line-btn");
+let snackbarContainer3 = document.querySelector(".leading-snackbar");
+let snackbarContainer4 = document.querySelector(".stacked-snackbar");
+
+baseLineBtn.addEventListener("click", () => {
+  snackbarContainer2.style.visibility = "visible";
+
+  setTimeout(() => {
+    snackbarContainer2.style.visibility = "hidden";
+  }, 1000);
+});
+
+leadingBtn.addEventListener("click", () => {
+  snackbarContainer3.style.visibility = "visible";
+
+  setTimeout(() => {
+    snackbarContainer3.style.visibility = "hidden";
+  }, 1000);
+});
+
+stackedLineBtn.addEventListener("click", () => {
+  snackbarContainer4.style.visibility = "visible";
+  setTimeout(() => {
+    snackbarContainer4.style.visibility = "hidden";
+  }, 1000);
+});
+/********** */

@@ -1,0 +1,43 @@
+.snackbar {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0rem;
+}
+.base-line-snackbar {
+  position: fixed;
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+.snackbar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30rem;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px var(--primary-color);
+}
+
+.leading-snackbar {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+/**********************/
+
+.stacked-snackbar {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}

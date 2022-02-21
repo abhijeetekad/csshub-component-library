@@ -78,6 +78,7 @@
 
       </ul>
       <a href="#alert"><span>Alert</span></a>
+      <a href="#snackbar"><span>SnackBar</span></a>
       <a href="#badge"><span>Badge</span></a>
       <ul>
         <li><a href="#status-badge"><span>Status Badge</span></a></li>
@@ -585,8 +586,48 @@
           </div>
          
           <hr/>
-
-
+          <h1 id="snackbar">SnackBar</h1>
+          <p>Snackbars provide brief notifications. The component is also known as a toast.</p>
+          <p>Click here 👇 to see live demo modal.</p>
+          <div class="snackbar">
+              <button class="base-line-btn normal-btn btn-login" id="base-line-btn">Base line</button>
+              <button class="leading-line-btn normal-btn btn-login" id="leading-line-btn">Leading</button>
+              <button class="stacked-line-btn normal-btn btn-login" id="stacked-line-btn">Stacked</button>
+          </div>
+          <div class="base-line-snackbar">
+            <section class="snackbar2">
+              <div>Can't send photo. Retry in 1 seconds.</div>
+              <div>
+                <span>RETRY</span>
+                <i class="fas fa-times"></i>
+              </div>
+            </section>
+          </div>
+          <div class="leading-snackbar">
+            <section class="snackbar2">
+              <div>Your photo has been archived.</div>
+              <div>
+                <span>UNDO</span>
+                <i class="fas fa-times"></i>
+              </div>
+            </section>
+          </div>
+      
+          <div class="stacked-snackbar">
+            <section class="snackbar2">
+              <div class="snackbar-msg4">
+                This item already has the label "travel". You can add a new label.
+              </div>
+              <div>
+                <span>ADD A NEW LABEL</span>
+                <i class="fas fa-times"></i>
+              </div>
+            </section>
+          </div>
+          <div class="gist">
+            <script src="https://gist.github.com/abhijeetekad/722ef737356f9dccdedca6195b33cca2.js"></script>
+          </div>
+          <hr>
           <div class="badge-section">
             <h1 id="badge">Badge</h1><br/>
             <h4>Badges are small circles, positioned either at top-right or bottom-right of the parent component.</h4>
